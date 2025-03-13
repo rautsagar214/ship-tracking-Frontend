@@ -132,6 +132,7 @@ function ProtectedRoute({ children }) {
 function App() {
   return (
     <Router>
+      {/* nj */}
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/admin-login" element={<AdminLogin />} />
